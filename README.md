@@ -20,6 +20,7 @@ to generate samples
 ## Run DALLE-mini for different deformances
 ```original.py permuted.py same_img.py backward.py just_noun.py``` are the scripts to run DALLE on input prompts, it will generate images and output their average CLIP score (aveCLIP). These files are here as a __reference__, you can __reuse the functions in those files to perform a deformance and use DALLE mini to generate images__. 
 
+
 Notice that we organize our input and output in this following structure, 
 ```
 caption_file = './dataset/cornell_newsroom/newsroom_samples.txt'
@@ -28,8 +29,11 @@ output_text_dir = './dataset/cornell_newsroom/output_text/same_img_noun/'
 poem_stats_path = './stats/cornell_newsroom/same_img_noun/'  + 'clip_stats' + '.csv'
 ```
 input prompts are in ```caption_file = './dataset/cornell_newsroom/newsroom_samples.txt'``` where each line is a prompt,
+
 for each input prompt, the generated image will be in ```img_output_dir = './img_result/[DATASET_NAME]/[DEFORMANCE_TYPE]/[PROMPT_ID]' ```,
+
 then we also save a copy of the deformed text to ```output_text_dir = './dataset/cornell_newsroom/output_text/same_img_noun/'```,
+
 finally, we save all the CLIP score information in ```poem_stats_path = './stats/cornell_newsroom/same_img_noun/'  + 'clip_stats' + '.csv'```
 
 
