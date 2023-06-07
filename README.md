@@ -2,6 +2,8 @@
 
 paper link: https://arxiv.org/abs/2306.03168
 
+To be appear at the Workshop on Narrative Understanding at ACL 2023!
+
 ## Environment requirement
 We will upload a .yml file soon!
 
@@ -43,6 +45,7 @@ finally, we save all the CLIP score information in ```poem_stats_path = './stats
 
 
 ## To cite our paper
+```
 @misc{wu2023composition,
       title={Composition and Deformance: Measuring Imageability with a Text-to-Image Model}, 
       author={Si Wu and David A. Smith},
@@ -51,4 +54,5 @@ finally, we save all the CLIP score information in ```poem_stats_path = './stats
       archivePrefix={arXiv},
       primaryClass={cs.CL}
 }
+```
 Please also feel free to reach out to us for questions and assistance!
