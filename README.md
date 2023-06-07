@@ -1,6 +1,6 @@
 # Composition and Deformance: Measuring Imageability with a Text-to-Image Model 
 
-paper link: 
+paper link: https://arxiv.org/abs/2306.03168
 
 ## Environment requirement
 We will upload a .yml file soon!
@@ -43,5 +43,12 @@ finally, we save all the CLIP score information in ```poem_stats_path = './stats
 
 
 ## To cite our paper
-Arxiv link to be announced!
+@misc{wu2023composition,
+      title={Composition and Deformance: Measuring Imageability with a Text-to-Image Model}, 
+      author={Si Wu and David A. Smith},
+      year={2023},
+      eprint={2306.03168},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
 Please also feel free to reach out to us for questions and assistance!
