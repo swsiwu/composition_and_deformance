@@ -1,6 +1,8 @@
 # Composition and Deformance: Measuring Imageability with a Text-to-Image Model 
 
-paper link: https://arxiv.org/abs/2306.03168
+Paper link: https://arxiv.org/abs/2306.03168
+
+Authors: Si Wu, David A. Smith
 
 To be appear at the Workshop on Narrative Understanding at ACL 2023!
 
