@@ -1,13 +1,17 @@
 # Composition and Deformance: Measuring Imageability with a Text-to-Image Model 
 
-Paper link: https://arxiv.org/abs/2306.03168
+Paper link: [https://arxiv.org/abs/2306.03168](https://aclanthology.org/2023.wnu-1.16/)
 
 Authors: Si Wu, David A. Smith
 
-To be appear at the Workshop on Narrative Understanding at ACL 2023!
+Published at the Workshop on Narrative Understanding at ACL 2023.
 
 ## Environment requirement
-We will upload a .yml file soon!
+This is only tested with python 3.9:
+
+```pip install -r requirements.txt```
+
+Feel free to reach out if you encounter any problems setting up the environment!
 
 ## Datasets
 **Conceptual 12M (CC12M)** (Changpinyo et al., 2021): available to download at https://github.com/google-research-datasets/conceptual-12m
@@ -48,13 +52,25 @@ finally, we save all the CLIP score information in ```poem_stats_path = './stats
 
 ## To cite our paper
 ```
-@misc{wu2023composition,
-      title={Composition and Deformance: Measuring Imageability with a Text-to-Image Model}, 
-      author={Si Wu and David A. Smith},
-      year={2023},
-      eprint={2306.03168},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+@inproceedings{wu-smith-2023-composition,
+    title = "Composition and Deformance: Measuring Imageability with a Text-to-Image Model",
+    author = "Wu, Si  and
+      Smith, David",
+    editor = "Akoury, Nader  and
+      Clark, Elizabeth  and
+      Iyyer, Mohit  and
+      Chaturvedi, Snigdha  and
+      Brahman, Faeze  and
+      Chandu, Khyathi",
+    booktitle = "Proceedings of the 5th Workshop on Narrative Understanding",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.wnu-1.16",
+    doi = "10.18653/v1/2023.wnu-1.16",
+    pages = "106--117",
+    abstract = "Although psycholinguists and psychologists have long studied the tendency of linguistic strings to evoke mental images in hearers or readers, most computational studies have applied this concept of imageability only to isolated words. Using recent developments in text-to-image generation models, such as DALLE mini, we propose computational methods that use generated images to measure the imageability of both single English words and connected text. We sample text prompts for image generation from three corpora: human-generated image captions, news article sentences, and poem lines. We subject these prompts to different deformances to examine the model{'}s ability to detect changes in imageability caused by compositional change. We find high correlation between the proposed computational measures of imageability and human judgments of individual words. We also find the proposed measures more consistently respond to changes in compositionality than baseline approaches. We discuss possible effects of model training and implications for the study of compositionality in text-to-image models.",
 }
 ```
 Please also feel free to reach out to us for questions and assistance!
