@@ -7,7 +7,9 @@ Authors: Si Wu, David A. Smith
 Published at the Workshop on Narrative Understanding at ACL 2023.
 
 ## Environment requirement
-This is only tested with python 3.9:
+For running DALLE-mini, this is the environment that you will need:
+
+(This is only tested with python 3.9):
 
 ```pip install -r requirements.txt```
 
